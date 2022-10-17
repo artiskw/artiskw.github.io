@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Task_2</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/Intersect.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="header-section">
+      <div class="logo">
+        <a href="#">
+          <img src="assets/img/BlackLogo 3.png" alt="" />
+        </a>
+      </div>
+      <nav>
+        <div class="lange-menu-top">
+          <a href="#" id="active">LV</a>
+          <a href="#">EN</a>
+          <a href="#">RU</a>
+        </div>
+        <a href="#Ideja">Ideja</a>
+        <a href="#Piesaki-Sapni" id="active">Piesaki Sapni</a>
+        <a href="#Uzņēmējiem">Uzņēmējiem</a>
+        <a href="#Sapņu banka">Sapņu banka</a>
+        <a href="#Sapņus atbalsta">Sapņus atbalsta</a>
+        <a href="#99 Iedvesmas stāsti">99 Iedvesmas stāsti</a>
+        <div class="lange-menu">
+          <a href="#">LV</a>
+        </div>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars">
+      </div>
+      <div class="line-top" style="background: url(assets/img/header_line.png);"></div>
+
+  </header>
+  <div class="section-about-bg">
+    <img src="assets/img/video.png" alt="">
+    <div class="play">
+      <svg width="86" height="83" viewBox="0 0 86 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M43 0C19.2884 0 0 18.6173 0 41.5C0 64.3827 19.2884 83 43 83C66.7116 83 86 64.3827 86 41.5C86 18.6173 66.7116 0 43 0ZM60.0943 42.954L35.0111 58.5165C34.7171 58.7005 34.3777 58.7917 34.0417 58.7917C33.7478 58.7917 33.4503 58.7207 33.1844 58.5807C32.6069 58.2767 32.25 57.6957 32.25 57.0625V25.9375C32.25 25.3043 32.6069 24.7233 33.1844 24.4193C33.7513 24.1188 34.4616 24.1373 35.0111 24.4835L60.0943 40.046C60.6053 40.3635 60.9167 40.9124 60.9167 41.5C60.9167 42.0876 60.6053 42.6364 60.0943 42.954Z"
+          fill="#FFA800" />
+      </svg>
+      <div class="triangle"></div>
+
+    </div>
+  </div>
+  <div class="section-about-paragraf">
+    <p>SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas
+      sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu
+      mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par
+      Latvijas sievietēm.
+    </p>
+  </div>
+  <div class="section-gallery">
+    <div class="gallery-line-top" style="background: url(assets/img/img_line_top.png);"></div>
+    <div class="section-gellery-inner">
+      <div class="img-box-left">
+        <div class="img-box">
+          <img src="assets/img/Zanda.png" alt="zanda">
+        </div>
+        <div class="img-box">
+          <img src="assets/img/Sibilla.png" alt="zanda">
+        </div>
+      </div>
+      <div class="img-box-right">
+        <div class="img-box" style="display: flex; flex-direction: column; width: 50%;">
+          <img src="assets/img/Brinuma_meita.png" alt="brinum-meta" style="width: 100%;">
+          <img src="assets/img/Alina.png" alt="alina" style="width: 100%;">
+        </div>
+        <div class="img-box">
+          <img src="assets/img/Anda.png" alt="anda">
+        </div>
+      </div>
+    </div>
+    <div class="gallery-line-bottom" style="background: url(assets/img/img_line_top.png);"></div>
+  </div>
+  <div class="button-section">
+    <div class="btn-content">
+      <h5>VĒLIES PIEPILDĪT SAVU SAPNI?</h5>
+      <a href="#">Sapņotājiem</a>
+    </div>
+    <div class="btn-content">
+      <h5>VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?</h5>
+      <a href="#">Uzņēmējiem</a>
+    </div>
+  </div>
+  <div class="form-section">
+    <h2>SAZINĀTIES AR MUMS</h2>
+    <form id="form" name="form" onsubmit="validateform()">
+      <div class="name-email">
+        <input id="name" name="name" type="text" placeholder="Vārds, Uzvārds*">
+        <input id="email" name="email" type="text" placeholder="E-pasts*">
+      </div>
+      <input id="phone" name="phone" type="text" placeholder="Telefons*">
+      <textarea id="msg" name="text" cols="30" rows="10" placeholder="Jautājums, vai komentārs*"></textarea>
+      <p>* obligāti aizpildāmie lauki</p>
+      <div class="check-terms">
+        <label class="container">
+          <input id="myCheck" type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <p>Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas
+          būs nepieciešams.</p>
+      </div>
+      <input class="approve-email-btn" value="Sūtīt" type="submit"></input>
+    </form>
+  </div>
+  <div class="supporters-section">
+    <div class="supporters-line-top" style="background: url(assets/img/img_line_top.png);"></div>
+    <div class="supporter-section-inner">
+      <h3>ATBALSTĪTĀJI</h3>
+      <div class="supporters">
+        <a href="#"><img src="assets/img/teikums.png" alt=""></a>
+        <a href="#"><img src="assets/img/sem_logo.png" alt=""></a>
+        <a href=""><img src="assets/img/citybee-logc.png" alt=""></a>
+        <a href=""><img src="assets/img/linearis.png" alt="" tyle="width: 84px;"></a>
+      </div>
+    </div>
+  </div>
+  <footer> 
+    <div class="footer-inner">
+      <div class="footer-inner-top">
+        <div class="logo-contact-person-name">
+      <div class="logo">
+        <a href="#">
+          <img src="assets/img/GoldenV2Logo 3.png" alt="">
+        </a>
+      </div>
+      <div class="contact-name-person-tablet">
+        <h5>Juris Goguli</h5>
+      </div>
+    </div>
+      <div class="footer-menu">
+        <a href="#">Ideja</a>
+        <a href="#">Piesaki Sapni</a>
+        <a href="#">Uzņēmējiem</a>
+        <a href="#">Sapņu banka</a>
+        <a href="#">Sapņus atbalsta</a>
+        <a href="#">Iedvesmas stāsti</a>
+      </div>
+      <div class="companies-contact">
+      <div class="companies-details">
+        <div id="details" class="details">
+        <h5>Biedrība SparkleHeart</h5>
+        <p>Reģistrācijas nr. 40008293119</p>
+        <p>Banka: SWEDBANK A/S</p>
+        <p>LV52HABA0551047652465</p>
+      </div>
+      <div class="social-media-tablet">
+        <a href="#">
+          <svg width="18" height="36" viewBox="0 0 18 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.25 12.375V7.875C11.25 6.633 12.258 5.625 13.5 5.625H15.75V0H11.25C7.52175 0 4.5 3.02175 4.5 6.75V12.375H0V18H4.5V36H11.25V18H15.75L18 12.375H11.25Z" fill="white"/>
+            </svg>
+        </a>
+        <a href="#">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.0063 8.75593C12.9018 8.75593 8.76934 12.8929 8.76934 17.9928C8.76934 23.0972 12.9063 27.2296 18.0063 27.2296C23.1108 27.2296 27.2433 23.0927 27.2433 17.9928C27.2433 12.8884 23.1063 8.75593 18.0063 8.75593ZM18.0063 23.9882C14.6928 23.9882 12.0108 21.3047 12.0108 17.9928C12.0108 14.6808 14.6943 11.9974 18.0063 11.9974C21.3183 11.9974 24.0018 14.6808 24.0018 17.9928C24.0033 21.3047 21.3198 23.9882 18.0063 23.9882Z" fill="white"/>
+            <path d="M25.4223 0.113078C22.1103 -0.0414193 13.9068 -0.0339194 10.5918 0.113078C7.67884 0.249576 5.10934 0.953063 3.03784 3.02453C-0.424159 6.48647 0.0183409 11.1514 0.0183409 17.9928C0.0183409 24.9946 -0.371659 29.5516 3.03784 32.961C6.51334 36.4349 11.2458 35.9805 18.0063 35.9805C24.9423 35.9805 27.3363 35.985 29.7888 35.0355C33.1233 33.741 35.6403 30.7605 35.8863 25.4071C36.0423 22.0937 36.0333 13.8918 35.8863 10.5769C35.5893 4.25751 32.1978 0.425073 25.4223 0.113078ZM30.6648 30.6705C28.3953 32.94 25.2468 32.7375 17.9628 32.7375C10.4628 32.7375 7.45534 32.8485 5.26084 30.648C2.73334 28.1326 3.19084 24.0932 3.19084 17.9688C3.19084 9.68141 2.34034 3.71302 10.6578 3.28702C12.5688 3.21952 13.1313 3.19702 17.9418 3.19702L18.0093 3.24202C26.0028 3.24202 32.2743 2.40504 32.6508 10.7209C32.7363 12.6184 32.7558 13.1883 32.7558 17.9913C32.7543 25.4041 32.8953 28.4296 30.6648 30.6705Z" fill="white"/>
+            <path d="M27.6093 10.5499C28.8015 10.5499 29.7678 9.58352 29.7678 8.39143C29.7678 7.19935 28.8015 6.23297 27.6093 6.23297C26.4172 6.23297 25.4508 7.19935 25.4508 8.39143C25.4508 9.58352 26.4172 10.5499 27.6093 10.5499Z" fill="white"/>
+            </svg>
+        </a>
+      </div>
+      </div>
+      <h4 class="show" onclick="showText()">Skatīt rekvizītus</h4>
+      <div class="contact-social-media">
+        <div class="contact-person">
+          <h5>Juris Gogulis</h5>
+          <p>juris.gogulis@sparkleheart.org</p>
+          <p style="display: flex;align-self: self-end;">+37126890034</p>
+          <p>Biķernieku iela 24a - 5, LV-1006</p>
+        </div>
+        <div class="social-media">
+          <a href="#">
+            <svg width="18" height="36" viewBox="0 0 18 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.25 12.375V7.875C11.25 6.633 12.258 5.625 13.5 5.625H15.75V0H11.25C7.52175 0 4.5 3.02175 4.5 6.75V12.375H0V18H4.5V36H11.25V18H15.75L18 12.375H11.25Z" fill="white"/>
+              </svg>
+          </a>
+          <a href="#">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.0063 8.75593C12.9018 8.75593 8.76934 12.8929 8.76934 17.9928C8.76934 23.0972 12.9063 27.2296 18.0063 27.2296C23.1108 27.2296 27.2433 23.0927 27.2433 17.9928C27.2433 12.8884 23.1063 8.75593 18.0063 8.75593ZM18.0063 23.9882C14.6928 23.9882 12.0108 21.3047 12.0108 17.9928C12.0108 14.6808 14.6943 11.9974 18.0063 11.9974C21.3183 11.9974 24.0018 14.6808 24.0018 17.9928C24.0033 21.3047 21.3198 23.9882 18.0063 23.9882Z" fill="white"/>
+              <path d="M25.4223 0.113078C22.1103 -0.0414193 13.9068 -0.0339194 10.5918 0.113078C7.67884 0.249576 5.10934 0.953063 3.03784 3.02453C-0.424159 6.48647 0.0183409 11.1514 0.0183409 17.9928C0.0183409 24.9946 -0.371659 29.5516 3.03784 32.961C6.51334 36.4349 11.2458 35.9805 18.0063 35.9805C24.9423 35.9805 27.3363 35.985 29.7888 35.0355C33.1233 33.741 35.6403 30.7605 35.8863 25.4071C36.0423 22.0937 36.0333 13.8918 35.8863 10.5769C35.5893 4.25751 32.1978 0.425073 25.4223 0.113078ZM30.6648 30.6705C28.3953 32.94 25.2468 32.7375 17.9628 32.7375C10.4628 32.7375 7.45534 32.8485 5.26084 30.648C2.73334 28.1326 3.19084 24.0932 3.19084 17.9688C3.19084 9.68141 2.34034 3.71302 10.6578 3.28702C12.5688 3.21952 13.1313 3.19702 17.9418 3.19702L18.0093 3.24202C26.0028 3.24202 32.2743 2.40504 32.6508 10.7209C32.7363 12.6184 32.7558 13.1883 32.7558 17.9913C32.7543 25.4041 32.8953 28.4296 30.6648 30.6705Z" fill="white"/>
+              <path d="M27.6093 10.5499C28.8015 10.5499 29.7678 9.58352 29.7678 8.39143C29.7678 7.19935 28.8015 6.23297 27.6093 6.23297C26.4172 6.23297 25.4508 7.19935 25.4508 8.39143C25.4508 9.58352 26.4172 10.5499 27.6093 10.5499Z" fill="white"/>
+              </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="footer-inner-bottom">
+      <p>
+        © SparkleHeart 2020. 
+        Visas tiesības aizsargātas.</p>
+      <a href="#">
+        Privātuma politika
+      </a>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+<script src="assets/js/theme.js"></script>
